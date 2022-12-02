@@ -75,3 +75,13 @@ Enjoy!
 [13]: https://symfony.com/doc/current/bundles/SensioGeneratorBundle/index.html
 [14]: https://symfony.com/doc/current/setup/built_in_web_server.html
 [15]: https://symfony.com/doc/current/setup.html
+
+
+//php bin/console doctrine:schema:validate
+//php bin/console doctrine:schema:update --force
+//php bin/console doctrine:generate:entities AppBundle/Entity/Product
+//php bin/console cache:clear
+//php bin/console doctrine:generate:entity  
+//php bin/console doctrine:database:create
+//php bin/console serve:run
+composer create-project symfony/framework-standard-edition my_project_namei "3.4.*"
